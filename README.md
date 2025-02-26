@@ -12,3 +12,7 @@ DSA implemented in C.
 ## Recommended Environments 
 - CLion (Windows)
 - VSCode (UNIX)
+
+| DSA           | Update Date |
+| ------------- | ----------- |
+| Sequence List | 02-26       |
