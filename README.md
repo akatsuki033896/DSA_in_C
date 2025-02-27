@@ -9,9 +9,23 @@ DSA implemented in C.
 ### UNIX
 - gcc
 - CMake 3.28 minimum required
+- ninja
+
 ## Recommended Environments 
 - CLion (Windows)
 - VSCode (UNIX)
+
+### Build Project in VSCode
+1. Install CMake Extensions
+2. Edit Setting.json
+
+```json
+{
+"cmake.buildDirectory": "${workspaceFolder}/cmake-build-debug",
+"cmake.generator": "Ninja", // or "Unix Makefiles"
+"cmake.configureOnOpen": true
+}
+```
 
 | DSA           | Update Date |
 | ------------- | ----------- |
