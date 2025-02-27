@@ -21,9 +21,9 @@ DSA implemented in C.
 
 ```json
 {
-"cmake.buildDirectory": "${workspaceFolder}/cmake-build-debug",
-"cmake.generator": "Ninja", // or "Unix Makefiles"
-"cmake.configureOnOpen": true
+  "cmake.buildDirectory": "${workspaceFolder}/cmake-build-debug",
+  "cmake.generator": "Ninja"
+  "cmake.configureOnOpen": true
 }
 ```
 
