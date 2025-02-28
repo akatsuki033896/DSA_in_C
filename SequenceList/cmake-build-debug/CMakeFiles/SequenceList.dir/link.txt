@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\SequenceList.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\SequenceList.dir/objects.a @CMakeFiles\SequenceList.dir\objects1.rsp
+C:\msys64\mingw64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\SequenceList.dir/objects.a -Wl,--no-whole-archive -o SequenceList.exe -Wl,--out-implib,libSequenceList.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SequenceList.dir\linkLibs.rsp

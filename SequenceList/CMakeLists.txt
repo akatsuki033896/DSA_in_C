@@ -3,8 +3,7 @@ project(SequenceList)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(SequenceList main.c
-        Status.h
-        SqList.c
+add_executable(SequenceList main.cpp
+        SqList.cpp
         SqList.h
         SqList.h)
